@@ -123,3 +123,5 @@ nextButton.addEventListener("click", () => {
 })
 
 startQuiz();
+
+document.querySelector('footer span').textContent = new Date().getFullYear()
