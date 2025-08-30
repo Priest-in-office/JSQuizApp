@@ -13,6 +13,11 @@ html, body {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 1024px){
+  .heading {
+   display: none;
+  }
+}
 .heading {
   background: linear-gradient(120deg, #072658 10%, #0a6bdc 100%);
   color: #fff;
