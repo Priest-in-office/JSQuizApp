@@ -9,6 +9,7 @@ body {
 }
 .app {
   width: 400px;
+  max-width: 90%;
   background: #fff;
   padding: 25px 30px;
   border-radius: 5px;
